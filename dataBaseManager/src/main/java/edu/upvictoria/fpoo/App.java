@@ -16,14 +16,6 @@ public class App {
         System.out.println("ESCRIBE [exit] para salir.");
 
         do {
-            System.out.print("BASE DE DATOS:");
-            use = String.valueOf(lector.readLine());
-            if (!use.startsWith("USE $PATH$;")) {
-                System.out.println("INVALIDO");
-            }
-        } while ((!use.startsWith("USE $PATH$;")));
-
-        do {
             try {
                 Sentencias.menu(lector);
                 op = lector.readLine();
