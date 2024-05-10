@@ -1,0 +1,12 @@
+package edu.upvictoria.fpoo;
+
+import edu.upvictoria.fpoo.Exceptions.ErrorSintaxis;
+import org.junit.Test;
+
+public class CSentenciasTest {
+    @Test(expected = ErrorSintaxis.class)
+    public void testSintaxisException() throws StringIndexOutOfBoundsException{
+        String ruta = SentenciasAcciones.obtenerRutaArchivo("ALUMNOS");
+    }
+
+}
