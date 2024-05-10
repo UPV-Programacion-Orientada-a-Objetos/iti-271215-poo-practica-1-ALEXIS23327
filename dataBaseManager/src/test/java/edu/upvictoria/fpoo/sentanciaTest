@@ -8,5 +8,4 @@ public class CSentenciasTest {
     public void testSintaxisException() throws StringIndexOutOfBoundsException{
         String ruta = SentenciasAcciones.obtenerRutaArchivo("ALUMNOS");
     }
-
 }
