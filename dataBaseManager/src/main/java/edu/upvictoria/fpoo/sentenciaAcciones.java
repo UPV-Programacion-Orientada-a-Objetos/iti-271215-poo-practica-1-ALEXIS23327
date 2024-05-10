@@ -7,7 +7,7 @@ import java.io.*;
 import java.util.ArrayList;
 
 public class SentenciasAcciones {
-    static String path = "C:\\Users\\alexis\\Desktop\\UPV\\ITI-6\\Poo\\PRACTICAS-POO\\poo-classcraft-mision1-ALEXIS23327\\dataBaseManager\\src\\main\\$PATH$";
+    static String path = "/home/alexis/Desktop/iti-271215-poo-practica-1-ALEXIS23327/dataBaseManager/src/main/$PATH$";
 
     public static BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
     public static String obtenerRutaArchivo(String nombreTabla) {
